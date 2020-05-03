@@ -240,7 +240,7 @@ class EMNIST(MNIST):
     md5 = "58c8d27c78d21e728a6bc7b3cc06412e"
     splits = ('byclass', 'bymerge', 'balanced', 'letters', 'digits', 'mnist')
     # Merged Classes assumes Same structure for both uppercase and lowercase version
-    _merged_classes = set(['C', 'I', 'J', 'K', 'L', 'M', 'O', 'P', 'S', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+    _merged_classes = set(['c', 'i', 'j', 'k', 'l', 'm', 'o', 'p', 's', 'u', 'v', 'w', 'x', 'y', 'z'])
     _all_classes = set(list(string.digits + string.ascii_letters))
     classes_split_dict = {
         'byclass': list(_all_classes),
